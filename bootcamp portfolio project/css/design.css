@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-name h2 {
+    color: whitesmoke;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.contact-me a{
+    background-color: rgb(30, 29, 30);
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 200px;
+    gap: 100px;
+}
+
+.hero-image img{
+    width: 250px;
+    height: 300px;
+    filter: drop-shadow(0 0 20px aqua);
+}
+
+.hero-button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-button a{
+    padding: 10px;
+    font-size: 20px;
+    background: linear-gradient(90deg, cyan, whitesmoke );
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+
+}
+
+.title {
+    display: block;
+    color: blue;
+    font-size: 60px;
+    background: linear-gradient(red, blue);
+    color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 0 20px whitesmoke);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 20px;
+}
+
+.footer-columns{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.footer-columns ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-columns ul li a {
+    color: whitesmoke;
+}
+
+footer{
+    background-color: #1f2937;
+    width: 100%;
+}
+
+.footer-columns h4{
+    border-bottom: solid 0.4px red;
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer-bottom {
+    margin: auto auto;
+    text-align: center;
+
+    width: 500px;
+}
+
+.footer-bottom p{
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    border-top: solid 0.5px white;
+}
